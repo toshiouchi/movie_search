@@ -7,11 +7,11 @@ We report video search system using image captioning and sentence-transformers.
 
 ## Folder
 
+```
 --movie_search---movies--- *.mp4 files
-
                |
-
                |-make_text_file_english.ipynb
+```
                
 Please put multiple *.mp4 files in movie folder, With jupyter-notebook, please open make_text_file_english.ipynb. If you run cell in order from the top, a 00_movie_search_{time}.txt file will be created. In this process, images and text folder is created two.
 
