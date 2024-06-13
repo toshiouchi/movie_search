@@ -8,14 +8,22 @@ We report video search system using image captioning and sentence-transformers.
 ```
 --movie_search---movies--- *.mp4 files
                |
-               |-make_text_file_english.ipynb
+               |-make_text_file_english.ipynb // In order to make 00_movie_search.txt file
+
+--client folder---index.html and client.php
+                |
+                |---movies--- *.mp4 files
+
+--server folder---server.py // Make server.py resident using the '>python server.py' command.
+                |
+                |---corpus---00_movie_search.txt
 ```
                
-Please put multiple *.mp4 files in movie folder, With jupyter-notebook, please open make_text_file_english.ipynb. If you run cell in order from the top, a 00_movie_search_{time}.txt file will be created. In this process, images and text folder is created two.
+Please put multiple *.mp4 files in movie_search/movies folder, With jupyter-notebook, please open make_text_file_english.ipynb. If you run cell in order from the top, a 00_movie_search.txt file will be created. In this process, images and text folder is created too.
 
 ## Actions
 
-Please put index.html and client.php in document root of apache with php. In this folder, please make movies forder and put movies same as above. Please make server program folder and put server.py and make corpus folder. Please put 00_movie_search.txt in corpus folder.
+Please put index.html and client.php in document root of apache with php. In this folder, please make movies forder and put movies same as above. Please make server program folder and put server.py and make corpus folder. Please put 00_movie_search.txt in corpus folder. Make server.py resident using the '>python server.py' command.
 
 With browser, please access index.html and put "zebra", for example, in the search sentence text field and search.
 
