@@ -45,7 +45,7 @@ video "two zebras are eating some hay in a field" is played.
 
 ### In make_text_file_english.ipynb
 
-Video is converted into images every second with OpenCV, and images that are similar to the previous video are omitted, and only images that are dissimilar are saved. The name of the image file includes the time (number of seconds) within the video.  Image captioning is performed in the image file using the Coca model. The openai clip-vit-base-patch32 model evaluates images and captions, and removes inappropriate captions.
+Video is converted into images every second with OpenCV, and images that are similar to the previous video are omitted, and only images that are dissimilar are saved. Judgment of similarities and dissimilarities is done using imgsim. The name of the image file includes the time (number of seconds) within the video.  Image captioning is performed in the image file using the Coca model. The openai clip-vit-base-patch32 model evaluates images and captions, and removes inappropriate captions.
 
 ### In server.py
 
