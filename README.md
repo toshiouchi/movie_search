@@ -30,7 +30,7 @@ With browser, please access index.html and put "zebra", for example, in the sear
 ![fig1](https://github.com/toshiouchi/movie_search/assets/121741811/5ad46ea8-04fc-40b4-91eb-0db883886ed1)
 
  
-Search results are displayed within 0.1 seconds.
+Search results are displayed within 1 seconds.
 
 ![fig2](https://github.com/toshiouchi/movie_search/assets/121741811/72a620cd-78e0-4b6d-a7dd-7e0d155c57e2)
 
