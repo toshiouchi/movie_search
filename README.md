@@ -59,3 +59,7 @@ movie file path<sep>time within video<sep>caption
 ### In server.py
 
 The distance is calculated using sentence-transformers between the previous caption and the current caption, and similar captions are not registered on the search server
+
+### Search
+
+Search is performed by registering data such as caption in sentence-transformers.　Data is 00_movie_search.txt.
