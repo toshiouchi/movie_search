@@ -10,15 +10,15 @@ We report video search system using image captioning and sentence-transformers.
                |-make_text_file_english.ipynb // In order to make 00_movie_search.txt file
 
 --client folder---index.html and client.php
-                |
+  (arbitrary)   |
                 |---movies--- *.mp4 files
 
 --server folder---server.py // Make server.py resident using the '>python server.py' command.
-                |
+  (arbitrary)   |
                 |---corpus---00_movie_search.txt
 ```
                
-Please put multiple *.mp4 files in movie_search/movies folder, With jupyter-notebook, please open make_text_file_english.ipynb. If you run cell in order from the top, a 00_movie_search.txt file will be created. In this process, images and text folder is created too.
+Please put multiple *.mp4 files in movie_search/movies folder. The movie_search folder can be opened with jupyter_notebook.  With jupyter-notebook, please open make_text_file_english.ipynb. If you run cell in order from the top, a 00_movie_search.txt file will be created. In this process, images and text folder is created too.
 
 ## Actions
 
