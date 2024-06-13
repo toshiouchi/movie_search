@@ -35,11 +35,13 @@ Search results are displayed within 0.1 seconds.
 ![fig2](https://github.com/toshiouchi/movie_search/assets/121741811/72a620cd-78e0-4b6d-a7dd-7e0d155c57e2)
 
 
-Click "cue" to the right of "two zebras are eating some hay in a field ." at the top of the table. Cue movie is played.
+Click "cue" to the right of "two zebras are eating some hay in a field." at the top of the table.
 
 ![fig3](https://github.com/toshiouchi/movie_search/assets/121741811/d7d52d6c-2bf7-45d9-a0b0-b05e4e09f77a)
 
-## Mecahnisums
+video "two zebras are eating some hay in a field" is played.
+
+## Mechanisms
 
 ### In make_text_file_english.ipynb
 
