@@ -54,6 +54,7 @@ movie file path<sep>time within video<sep>caption
 ...
 ------
 ```
+<sep> means separator in a line.
 
 ### In server.py
 
