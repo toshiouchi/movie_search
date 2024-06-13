@@ -22,7 +22,7 @@ Please put multiple *.mp4 files in movie_search/movies folder. The movie_search 
 
 ## Actions
 
-Please put index.html and client.php in document root of web server with php. In this folder, please make movies forder and put movies same as above. Please make server program folder and put server.py and make corpus folder. The python command can be used in the server program folder. Please put 00_movie_search.txt in corpus folder. Make server.py resident using the '>python server.py' command.
+Please, create a folder under the document root of the web server with PHP. Please put index.html and client.php in this folder. In this folder, please make movies forder and put movies same as above. Please make server program folder and put server.py and make corpus folder. The python command can be used in the server program folder. Please put 00_movie_search.txt in corpus folder. Make server.py resident using the '>python server.py' command.
 
 With browser, please access index.html and put "zebra", for example, in the search sentence text field and search.
 
